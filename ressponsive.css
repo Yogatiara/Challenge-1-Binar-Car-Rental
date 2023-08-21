@@ -1,0 +1,10 @@
+@media screen and (min-width: 400px) {
+  .car-image {
+    width: 360px;
+  }
+
+  .bg-car {
+    width: 360px;
+    height: 140px;
+  }
+}
