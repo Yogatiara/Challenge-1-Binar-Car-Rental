@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1280px) {
+  .bg-car {
+    margin-top: 140px;
+    height: 200px;
+  }
+
+  .banner {
+    height: 390px;
+  }
+
+  .car-image {
+    width: 1000px;
+    margin-top: 50px;
+  }
+
+  .navbar-content {
+    margin-right: 136px;
+    margin-left: 136px;
+  }
+
+  #banner-text {
+    padding-left: 136px;
+    padding-right: 32px;
+  }
+
+  #button-rental {
+    margin-left: 136px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .banner p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  #button-rental {
+    margin-top: 15px;
+    width: 140px;
+    height: 36px;
+    font-size: 14px;
+  }
+}

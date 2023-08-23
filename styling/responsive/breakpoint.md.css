@@ -1,0 +1,169 @@
+@media only screen and (min-width: 768px) {
+  .navbar-content {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #banner-text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #button-rental {
+    margin-left: 50px;
+  }
+
+  .banner {
+    height: 655px;
+  }
+
+  .bg-car {
+    height: 224px;
+  }
+
+  .car-image {
+    width: 717px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .banner {
+    height: 254px;
+  }
+
+  /* .text-and-button {
+    margin-top: ;
+  } */
+
+  .banner h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .banner p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  #button-rental {
+    font-size: 11px;
+    width: 107px;
+    margin-top: 16px;
+  }
+
+  .banner-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #banner-text {
+    padding-right: 20px;
+  }
+
+  .car-image {
+    margin-top: 10px;
+    height: 0;
+    width: 1000px;
+  }
+
+  .bg-car {
+    margin-top: 99px;
+    height: 145px;
+  }
+}
+
+@media only screen and (min-width: 777px) {
+  .banner {
+    height: 257px;
+  }
+
+  .bg-car {
+    margin-top: 101px;
+    height: 146px;
+  }
+}
+
+@media only screen and (min-width: 813px) {
+  .banner {
+    height: 265px;
+  }
+
+  .bg-car {
+    margin-top: 107px;
+    height: 148px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .banner {
+    height: 278px;
+  }
+
+  .bg-car {
+    margin-top: 107px;
+    height: 160px;
+  }
+}
+
+@media only screen and (min-width: 906px) {
+  .banner {
+    height: 327px;
+  }
+
+  .bg-car {
+    margin-top: 128px;
+    height: 169px;
+  }
+
+  .navbar-content {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  #banner-text {
+    padding-left: 70px;
+  }
+
+  #button-rental {
+    margin-left: 70px;
+  }
+
+  .banner h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .banner p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  #button-rental {
+    margin-top: 15px;
+  }
+
+  .car-image {
+    width: 1300px;
+    margin-top: 30px;
+  }
+
+  .text-and-button {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 906px) {
+  .banner {
+    height: 342px;
+  }
+
+  .bg-car {
+    margin-top: 143px;
+    height: 169px;
+  }
+
+  .car-image {
+    width: 1300px;
+    margin-top: 30px;
+  }
+}
