@@ -198,3 +198,31 @@ body {
   margin-left: 16px;
   margin-right: 16px;
 }
+
+.why-us {
+  margin-top: 3vw;
+}
+
+.why-us ul {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-why-us {
+  padding: 24px;
+}
+
+.card-why-us h3 {
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-why-us p {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 20px;
+}
