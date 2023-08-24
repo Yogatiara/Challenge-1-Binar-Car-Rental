@@ -15,7 +15,6 @@ body {
 .flex-box-row {
   display: flex;
   flex-direction: row;
-  gap: 32px;
 }
 
 /* all button */
@@ -36,13 +35,17 @@ body {
   height: 34px;
 }
 
-.navbarNav,
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
 .nav-link {
   font-size: 14px;
   margin-bottom: 11px;
 }
 
-.navbarNav,
 .nav-button {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -147,4 +150,51 @@ body {
 
 .rounded-top-left-1 {
   border-top-left-radius: 60px;
+}
+
+/* service */
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.img-service {
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 54px;
+  padding-right: 54px;
+}
+
+.service h2 {
+  text-align: justify;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.service ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.service-list img {
+  width: 24px;
+}
+
+.service-list p {
+  margin-top: 4px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.service-text {
+  margin-left: 16px;
+  margin-right: 16px;
 }

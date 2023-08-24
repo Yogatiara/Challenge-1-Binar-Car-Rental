@@ -118,6 +118,15 @@
   .bg-car {
     height: 165px;
   }
+
+  .service {
+    gap: 66px;
+  }
+
+  .service-text {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 
 @media only screen and (min-width: 525px) {
@@ -165,6 +174,12 @@
 
   .bg-car {
     height: 190px;
+  }
+
+  .img-service {
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
@@ -246,7 +261,7 @@
   }
 }
 
-@media only screen and (min-width: 703px) {
+@media only screen and (min-width: 718px) {
   .car-image {
     width: 698px;
   }

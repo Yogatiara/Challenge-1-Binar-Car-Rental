@@ -31,6 +31,10 @@
     font-size: 13px;
     margin-bottom: 0;
   }
+
+  .service-text {
+    padding-top: 6vw;
+  }
 }
 
 @media only screen and (min-width: 1114px) {
@@ -108,6 +112,40 @@
     height: 45px;
     margin-top: 16px;
   }
+
+  .img-service {
+    width: 430px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .service {
+    gap: 65px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media only screen and (min-width: 1225px) {
+  .banner {
+    height: 381px;
+  }
+
+  .bg-car {
+    margin-top: 180px;
+    height: 180px;
+  }
+
+  .img-service {
+    width: 440px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .service {
+    padding-left: 170px;
+    padding-right: 170px;
+  }
 }
 
 @media only screen and (min-width: 1260px) {
@@ -118,5 +156,15 @@
   .bg-car {
     margin-top: 150px;
     height: 230px;
+  }
+
+  .img-service {
+    width: 459px;
+    padding-bottom: 100px;
+  }
+
+  .service {
+    padding-left: 190px;
+    padding-right: 190px;
   }
 }
