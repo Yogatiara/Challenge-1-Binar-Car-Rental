@@ -124,7 +124,7 @@ body {
   padding-top: 16px;
 }
 
-#button-rental {
+.button-rental {
   margin-left: 16px;
   width: 140px;
   height: 36px;
@@ -236,7 +236,7 @@ body {
 .carousel {
   background-color: #f1f3ff;
   margin: 16px;
-  margin-top: 400px;
+  margin-top: 50px;
 }
 
 .caraousel-content {
@@ -263,6 +263,32 @@ body {
 .star {
   display: flex;
   justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* rental car card */
+
+.rental-car-card {
+  background-color: #0d28a6;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.rental-car-card h1 {
+  font-size: 23px;
+}
+
+.rental-car-card p {
+  font-size: 17px;
+}
+
+.another-button-rental {
   display: block;
   margin-left: auto;
   margin-right: auto;

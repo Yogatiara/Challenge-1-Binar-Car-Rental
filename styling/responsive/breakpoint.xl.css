@@ -23,7 +23,7 @@
     padding-right: 32px;
   }
 
-  #button-rental {
+  .button-rental {
     font-size: 25px;
     margin-left: 136px;
     width: 200px;
@@ -58,7 +58,7 @@
     margin-bottom: 0;
   }
 
-  #button-rental {
+  .button-rental {
     margin-top: 15px;
     width: 140px;
     height: 40px;
@@ -131,6 +131,11 @@
     font-weight: 300;
     font-size: 18px;
   }
+
+  .rental-car-card {
+    margin-left: 136px;
+    margin-right: 136px;
+  }
 }
 
 @media only screen and (min-width: 1419px) {
@@ -147,7 +152,7 @@
     padding-right: 60px;
   }
 
-  #button-rental {
+  .button-rental {
     margin-top: 30px;
     width: 160px;
     height: 40px;
@@ -228,7 +233,7 @@
     height: 460px;
   }
 
-  #button-rental {
+  .button-rental {
     font-size: 25px;
     margin-left: 136px;
     width: 200px;
@@ -285,7 +290,7 @@
     height: 461px;
   }
 
-  #button-rental {
+  .button-rental {
     font-size: 25px;
     margin-left: 136px;
     width: 200px;
@@ -312,5 +317,10 @@
 
   .profile-testi {
     margin-top: 80px;
+  }
+
+  .service {
+    padding-left: 370px;
+    padding-right: 370px;
   }
 }
