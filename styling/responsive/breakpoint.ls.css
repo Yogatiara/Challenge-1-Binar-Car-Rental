@@ -76,6 +76,17 @@
   .car-image {
     width: 440px;
   }
+
+  .next-button,
+  .prev-button {
+    margin-top: 10px;
+    padding-bottom: 200px;
+  }
+
+  .caraousel-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 
 @media only screen and (min-width: 484px) {
@@ -202,6 +213,16 @@
     height: 188px;
     margin-top: 155px;
   }
+
+  .caraousel-content {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .next-button,
+  .prev-button {
+    padding-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 631px) {
@@ -232,6 +253,13 @@
 @media only screen and (min-width: 663px) {
   .car-image {
     width: 645px;
+  }
+
+  .caraousel-content {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-top: 40px;
   }
 }
 

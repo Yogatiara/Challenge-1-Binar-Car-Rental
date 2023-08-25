@@ -70,6 +70,19 @@
     font-size: 13px;
     margin-bottom: 0;
   }
+
+  .carousel {
+    background-color: #f1f3ff;
+    margin: 130px;
+    margin-top: 60px;
+  }
+
+  .caraousel-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
 }
 
 @media only screen and (min-width: 1150px) {
@@ -132,8 +145,8 @@
   }
 
   .bg-car {
-    margin-top: 180px;
-    height: 180px;
+    margin-top: 140px;
+    height: 220px;
   }
 
   .img-service {
@@ -166,5 +179,18 @@
   .service {
     padding-left: 190px;
     padding-right: 190px;
+  }
+}
+
+@media only screen and (max-width: 1278px) {
+  .card-why-us h3 {
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .card-why-us p {
+    font-weight: 100;
+    font-size: 17px;
   }
 }

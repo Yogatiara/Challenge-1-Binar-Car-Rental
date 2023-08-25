@@ -14,7 +14,7 @@
   }
 
   .banner {
-    height: 655px;
+    height: 751px;
   }
 
   .bg-car {
@@ -81,6 +81,14 @@
   .why-us-title {
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  .carousel {
+    margin: 50px;
+  }
+
+  .star img {
+    width: 27px;
   }
 }
 
@@ -169,6 +177,11 @@
   .service-text {
     padding-bottom: 30px;
     padding-top: 30px;
+  }
+
+  .caraousel-content {
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
 
@@ -276,6 +289,30 @@
     font-weight: 100;
     font-size: 14px;
   }
+
+  .profile-testi,
+  .star {
+    display: flex;
+    justify-content: start;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caraousel-content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .caraousel-content p {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .profile-testi {
+    margin-top: 80%;
+  }
 }
 
 @media only screen and (min-width: 985px) {
@@ -328,5 +365,16 @@
   }
   .service-text {
     padding-top: 40px;
+  }
+
+  .caraousel-content {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  .carousel {
+    background-color: #f1f3ff;
+    margin: 90px;
+    margin-top: 50px;
   }
 }
