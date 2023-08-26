@@ -13,25 +13,25 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar sticky-top">
       <div class="container-fluid navbar-content my-1 px-0">
-        <div class="logo"></div>
+        <a href="#"> <div class="logo"></div> </a>
         <a class="hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <img src="/assets/icon/fi_menu.png" alt="" />
         </a>
         <div id="navbarNav">
           <ul class="navbar-nav navbar-ul">
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Servis</a>
+              <a class="nav-link" href="#service">Our Servis</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Why Us</a>
+              <a class="nav-link" href="#whyUs">Why Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonial</a>
+              <a class="nav-link" href="#testimonial">Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="#faq">FAQ</a>
             </li>
             <li>
               <button class="rounded-1 button nav-button" type="button">
@@ -51,16 +51,16 @@
           <div class="offcanvas-body mx-1">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fw-normal">
               <li class="nav-item" tabindex="1">
-                <a class="nav-link" aria-current="page" href="#">Our Service</a>
+                <a class="nav-link" aria-current="page" href="#service">Our Service</a>
               </li>
               <li class="nav-item" tabindex="2">
-                <a class="nav-link" href="#">Why Us</a>
+                <a class="nav-link" href="#whyUs">Why Us</a>
               </li>
               <li class="nav-item" tabindex="3">
-                <a class="nav-link" href="#">Testimony</a>
+                <a class="nav-link" href="#testimonial">Testimony</a>
               </li>
               <li class="nav-item" tabindex="4">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link" href="#faq">FAQ</a>
               </li>
               <li class="nav-item" tabindex="5">
                 <button class="rounded-1 button" type="button">
@@ -100,6 +100,7 @@
     </header>
 
     <!-- service -->
+    <div id="service"></div>
     <div class="service">
       <div class="bg-image">
         <img class="img-service" src="/assets/picture/img_service.png" alt="service" />
@@ -153,6 +154,7 @@
     </div>
 
     <!-- why us -->
+    <div id="whyUs" class="mt-5"></div>
     <div class="why-us">
       <div class="text-center text-md-start why-us-title">
         <h1 class="fs-1 fw-bolder">Why Us</h1>
@@ -160,7 +162,7 @@
       </div>
       <ul class="navbar-nav mt-4 why-us-ul">
         <li>
-          <div class="card-why-us border border-1 rounded-3">
+          <div class="card-why-us border border-1 rounded-3" id="complete-car">
             <img src="../assets/icon/ok.png" alt="ok" />
             <h3 class="my-3">Mobil Lengkap</h3>
             <p class="">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
@@ -194,6 +196,7 @@
     </div>
 
     <!-- testimonial -->
+    <div id="testimonial" class="mt-5"></div>
     <div class="testimonial">
       <div class="text-center testimonial-title">
         <h1 class="fs-1 fw-bolder">Testimonial</h1>

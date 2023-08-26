@@ -23,6 +23,10 @@ body {
   border: none;
 }
 
+.button:hover {
+  background-color: rgb(122, 194, 125);
+}
+
 /* Navbar */
 .navbar {
   background-color: #f1f3ff;
@@ -154,6 +158,7 @@ body {
 
 /* service */
 .service {
+  /* margin-bottom: 100px; */
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -201,7 +206,7 @@ body {
 
 /* why us */
 .why-us {
-  margin-top: 3vw;
+  margin-top: 10vw;
 }
 
 .why-us ul {
@@ -229,7 +234,7 @@ body {
 
 /* testimonial */
 .testimonial {
-  margin-top: 140px;
+  margin-top: 200px;
 }
 
 .carousel {
