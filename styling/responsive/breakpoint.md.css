@@ -27,15 +27,15 @@
 
   .img-service {
     width: 100%;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
     min-width: 300px;
   }
 
   .service-text {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .service h2 {
@@ -86,11 +86,35 @@
     margin-left: 50px;
     margin-right: 50px;
   }
+
+  .font-button-card {
+    font-size: 17px;
+    width: 160px;
+    height: 50px;
+    padding-top: 15px;
+  }
+
+  .FAQ {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
   .banner {
     height: 254px;
+  }
+  .service-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .img-service {
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 300px;
   }
 
   .service {
@@ -237,6 +261,11 @@
   }
 
   .rental-car-card {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .FAQ {
     margin-left: 70px;
     margin-right: 70px;
   }

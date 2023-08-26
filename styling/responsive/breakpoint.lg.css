@@ -139,6 +139,19 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .FAQ {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;
+  }
+
+  .accordion-item {
+    width: 650px;
+  }
+}
+
 @media only screen and (min-width: 1225px) {
   .banner {
     height: 381px;

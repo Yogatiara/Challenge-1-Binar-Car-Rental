@@ -278,6 +278,7 @@ body {
   padding-right: 55px;
   margin-left: 16px;
   margin-right: 16px;
+  margin-top: 70px;
 }
 
 .rental-car-card h1 {
@@ -292,4 +293,14 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* FAQ */
+.FAQ {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
