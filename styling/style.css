@@ -43,7 +43,6 @@ body {
 
 .nav-link {
   font-size: 14px;
-  margin-bottom: 11px;
 }
 
 .nav-button {
@@ -303,4 +302,31 @@ body {
   gap: 30px;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+/* footer */
+.footer {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.nav-item-footer {
+  margin-bottom: 16px;
+}
+
+address {
+  margin-bottom: 0;
+}
+
+#no-tlp {
+  margin-bottom: 0;
+}
+
+#faq {
+  margin-bottom: 0;
 }
